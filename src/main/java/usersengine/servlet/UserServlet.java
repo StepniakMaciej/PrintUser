@@ -35,7 +35,7 @@ public class UserServlet extends HttpServlet {
         while (enumeration.hasMoreElements()) {
             String param = (String) enumeration.nextElement();
             String value = req.getParameter(param);
-            resp.getWriter().println(value);
+            resp.getWriter().println(param + "= " + value);
 
         }
 
