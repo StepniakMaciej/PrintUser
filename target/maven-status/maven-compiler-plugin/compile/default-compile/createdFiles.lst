@@ -1,0 +1,4 @@
+usersengine/freemarker/TemplateProvider.class
+usersengine/freemarker/ConfigProvider.class
+usersengine/servlet/UserServlet.class
+usersengine/user/User.class
