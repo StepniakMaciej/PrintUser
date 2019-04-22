@@ -4,7 +4,7 @@
     <list default="true" id="f9527cf7-5e22-4be7-9631-8509b2ead656" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Homework_4/src/main/java/com/infoshareacademy/homeworks/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_4/src/main/java/com/infoshareacademy/homeworks/GradeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_4/src/main/java/com/infoshareacademy/homeworks/GradeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fm-templates/print-user.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fm-templates/print-user.ftlh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/usersengine/servlet/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="236">
+              <caret line="51" column="35" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fm-templates/print-user.ftlh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="120">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -133,10 +133,10 @@
         <option value="$PROJECT_DIR$/src/main/java/usersengine/servlet/PrintUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/usersengine/User/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jboss-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/fm-templates/print-user.ftlh" />
         <option value="$PROJECT_DIR$/src/main/java/usersengine/user/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/usersengine/servlet/UserServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/usersengine/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/fm-templates/print-user.ftlh" />
       </list>
     </option>
   </component>
@@ -251,11 +251,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="fm-templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework5" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,22 +375,23 @@
       <workItem from="1555772264664" duration="8064000" />
       <workItem from="1555953801625" duration="2957000" />
       <workItem from="1555961380688" duration="2515000" />
-      <workItem from="1555963920686" duration="1548000" />
+      <workItem from="1555963920686" duration="1913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15084000" />
+    <option name="totallyTimeSpent" value="15449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1814301" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1814301" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50053364" side_tool="true" weight="0.32969433" />
@@ -405,9 +401,9 @@
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32751092" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32751092" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.4994664" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.4994664" weight="0.32969433" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -492,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fm-templates/print-user.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/usersengine/freemarker/ConfigProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -537,14 +526,21 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fm-templates/print-user.ftlh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/usersengine/servlet/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="236">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
