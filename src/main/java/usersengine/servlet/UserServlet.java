@@ -51,7 +51,7 @@ public class UserServlet extends HttpServlet {
 
         LocalDateTime localDateTime = LocalDateTime.now();
 
-        Template template = templateProvider.getTemplate(getServletContext(), "new.ftlh");
+        Template template = templateProvider.getTemplate(getServletContext(), "print-user.ftlh");
         Map<String, Object> model = new HashMap<>();
         model.put("name", name);
         model.put("surname", surname);
