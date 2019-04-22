@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.time.LocalDateTime;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
@@ -44,28 +45,24 @@ public class UserServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        User user = new User();
+        String name = "Maciej";
+        String surname = "Stepniak";
+        String team = "jjdd6-errorzy";
 
-        if (user == null) {
-            resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
-            return;
-        }
+        LocalDateTime localDateTime = LocalDateTime.now();
 
-        Template template = templateProvider.getTemplate(getServletContext(), "print-user.ftlh");
+        Template template = templateProvider.getTemplate(getServletContext(), "new.ftlh");
         Map<String, Object> model = new HashMap<>();
-
-        model.put("name", user.getName());
-        model.put("surname", user.getSurname());
-        model.put("team", user.getTeam());
-        model.put("data", user.getData());
-        model.put("time", user.getTime());
-
-
+        model.put("name", name);
+        model.put("surname", surname);
+        model.put("team", team);
+        model.put("localDateTime", localDateTime);
         try {
             template.process(model, resp.getWriter());
         } catch (TemplateException e) {
             e.printStackTrace();
-
         }
     }
+
+
 }

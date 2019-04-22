@@ -1,8 +1,6 @@
 package usersengine.user;
 
 
-import java.time.LocalDate;
-import java.time.LocalTime;
 
 
 public class User {
@@ -10,8 +8,7 @@ public class User {
     String name = "Maciej";
     String surname = "Stępniak";
     String team = "jjdd6-errorzy";
-    LocalDate data;
-    LocalTime time;
+
 
     public String getName() {
         return name;
@@ -37,21 +34,11 @@ public class User {
         this.team = team;
     }
 
-    public LocalDate getData() {
-        return data;
-    }
 
-    public void setData(LocalDate data) {
-        this.data = data;
-    }
-
-    public LocalTime getTime() {
-        return time;
-    }
-
-    public void setTime(LocalTime time) {
-        this.time = time;
     }
 
 
-}
+
+
+
+
